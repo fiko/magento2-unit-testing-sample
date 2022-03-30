@@ -27,11 +27,23 @@ class U2Test extends TestCase
 
     public function testConnection(): void
     {
+        // return 1;
         $conn = $this->helper->getName();
         // $query = 'SELECT * FROM sales_order';
-        $tmp = $conn;
+        // $tmp = $conn;
+        // echo $tmp;
+
+        $this->assertSame($name, $conn);
 
         // $tmp = $conn->query($query)->fetchAll();
-        print_r(json_encode(is_object($tmp) ? get_class_methods($tmp) : $tmp));
+        // print_r(json_encode(is_object($tmp) ? get_class_methods($tmp) : $tmp));
     }
+
+    // public function getSingleStoreIds(): array
+    // {
+    //     return [
+    //         "John Doe",
+    //         "Jack Doe",
+    //     ];
+    // }
 }
