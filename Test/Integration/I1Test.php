@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Fiko\UnitTesting\Test\Integration;
+namespace Fiko\Testing\Test\Integration;
 
 use Magento\Framework\App\ResourceConnection;
 use Magento\TestFramework\Helper\Bootstrap;

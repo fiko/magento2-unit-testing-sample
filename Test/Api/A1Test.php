@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Fiko\UnitTesting\Test\Api;
+namespace Fiko\Testing\Test\Api;
 
 use Magento\Framework\Webapi\Rest\Request;
 use Magento\TestFramework\TestCase\WebapiAbstract;
