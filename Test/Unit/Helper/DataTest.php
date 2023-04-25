@@ -11,6 +11,21 @@ use PHPUnit\Framework\TestCase;
 class DataTest extends TestCase
 {
     /**
+     * @var ObjectManager
+     */
+    public $objectManager;
+
+    /**
+     * @var StoreManagerInterface
+     */
+    public $storeManager;
+
+    /**
+     * @var Helper
+     */
+    public $helper;
+
+    /**
      * This method will be called on every test method
      *
      * @return void

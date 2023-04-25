@@ -9,6 +9,11 @@ class Data
     const BORIZQY = 'Borizqy';
 
     /**
+     * @var StoreManagerInterface
+     */
+    public $storeManager;
+
+    /**
      * Constructor
      *
      * @param StoreManagerInterface $storeManager
